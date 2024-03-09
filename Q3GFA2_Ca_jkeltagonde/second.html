@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Page</title>
+</head>
+
+<body>
+    <img id="image" src="images/blackcat.jfif">
+
+    <button onclick="changeimage()">Change Image</button>
+    <button onclick="revertimage()">Revert Image</button>
+
+    <script>
+        function changeimage() {
+            image.src = 'images/whitecat.jfif';
+        }
+
+        function revertimage() {
+            image.src = 'images/blackcat.jfif';
+        }
+    </script>
+</body>
+
+</html>
